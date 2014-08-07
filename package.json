@@ -1,0 +1,20 @@
+{
+    "name": "Winston-dynamic-loglevel",
+    "version": "0.0.1",
+    "description": "Change Winstom log level at runtime",
+    "main": "lib/Logger.js",
+    "author": {
+        "name": "Yann Vallery-Radot",
+        "email": "yannvr@gmail.com"
+    },
+    "dependencies": {
+        "winston": "*"
+    },
+    "devDependencies": {
+        "express": "^4.4.5",
+        "mocha": "*"
+    },
+    "scripts": {
+        "test": "node_modules/.bin/mocha --reporter list"
+    }
+}
