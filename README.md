@@ -1,7 +1,7 @@
 # Logger.js - Wrapper around winston that provides logLevel update at runtime
 Provides the missing updateLogLevel feature for Winston at runtime so you can adjust logging level live.
 Note that the default logger provides two transports but you can configure it to your needs.
-This is wrapper and does not alter Winston functionalities.
+This is a wrapper therefore does not alter Winston functionalities.
 The setup requires you to expose the updateLogLevel service as such:
 ```
 var express = require('express');
