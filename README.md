@@ -21,9 +21,9 @@ Log level is now set to error only. Therefore, debug statement will not be logge
 
 ## USAGE
 ### browser  
-- ```http://localhost/updateLogLevel/error``` filters anything less than an error
-- ```http://localhost/updateLogLevel/warn``` filters anything less than a warning
-- ```http://localhost/updateLogLevel/info``` filters out anything less than an info
+- ```/updateLogLevel/error``` filters anything less than an error
+- ```/updateLogLevel/warn``` filters anything less than a warning
+- ```/updateLogLevel/info``` filters out anything less than an info
 
 
 
